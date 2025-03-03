@@ -77,12 +77,14 @@
     "react-icons": "^5.0.1",
     "react-intersection-observer": "^9.5.3",
     "tailwind-merge": "^2.2.0",
-    "three": "^0.160.0"
+    "three": "^0.160.0",
+    "vercel": "^41.3.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/three": "^0.174.0",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
