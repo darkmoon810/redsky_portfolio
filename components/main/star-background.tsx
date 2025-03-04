@@ -4,7 +4,7 @@ import { Points, PointMaterial } from "@react-three/drei";
 import { Canvas, type PointsProps, useFrame } from "@react-three/fiber";
 import * as random from "maath/random";
 import { useState, useRef, Suspense } from "react";
-import type { Points as PointsType } from "three";
+import type { Points as PointsType } from "@react-three/drei";
 
 export const StarBackground = (props: PointsProps) => {
   const ref = useRef<PointsType | null>(null);
